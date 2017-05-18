@@ -1,0 +1,59 @@
+@media only screen and (max-width: 991px) {
+  #testemunho .col-md-12 img {
+    width: 200;
+  }
+  .diagonal {
+    border: 0;
+  }
+  #status .icone {
+    font-size: 3em;
+  }
+  #links .icone {
+    font-size: 4em;
+  }
+  #links a {
+    font-size: 4em;
+  }
+  #links h3 {
+    font-size: 20;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #testemunho .text-testemunho {
+    margin: 5% 0 5% 0;
+  }
+  #status #itens-status {
+    vertical-align: top;
+  }
+  #status h3 {
+    font-size: 20px;
+  }
+  #status p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #testemunho .text-testemunho {
+    margin: 0;
+  }
+  #status .icone {
+    font-size: 2em;
+  }
+  #status h3 {
+    font-size: 15px;
+  }
+  #status p {
+    font-size: 10px;
+  }
+  #links .icone {
+    font-size: 3em;
+  }
+  #links h3 {
+    font-size: 15;
+  }
+}
+
+
+}

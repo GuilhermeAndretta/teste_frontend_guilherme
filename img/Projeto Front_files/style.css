@@ -1,0 +1,152 @@
+/*========================================================================
+  Teste Front end
+  colors:
+        Blue:#3B5374
+        Dark Blue:#2F3B55
+        Grey:#545152
+        Orange:#F89E35
+        White:#fff
+
+=========================================================================*/
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+section{
+  margin-bottom: 100px:
+}
+
+
+/*========================================================================
+  Home
+========================================================================*/
+
+#home-div {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/Mercy-home.jpg');
+}
+
+#home-div h3 {
+  color: #fff;
+}
+
+
+/*========================================================================
+  links
+========================================================================*/
+
+.icone {
+  margin: 0 35, 0, 20;
+  border-radius: 0;
+  border-color: #F89E35;
+  color: #F89E35;
+}
+
+.icone:hover, .icone:focus {
+  border-radius: 0;
+  border-color: #F89E35;
+  text-decoration: none;
+}
+#links h3 {
+  color: #545152;
+}
+#links h2 {
+  color: #2F3B55;
+}
+.underline{
+    display: block;
+    height: 2px;
+    width: 150px;
+    border: 0;
+    border-top: 1px solid #F89E35;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+#titulo-redes-sociais{
+  margin-top: 100;
+}
+
+/*========================================================================
+  About
+========================================================================*/
+#about {
+  background-image: url("../img/lucio.jpg");
+
+
+}
+#about-div{
+  float: left;
+  background-color: #fff;
+  width: 40%;
+
+
+}
+
+.diagonal{
+  background-image: url("../img/lucio.jpg");
+  width: 60%;
+  height: 700px;
+  float: right;
+  border-left: 200px solid #fff;
+  border-top: 700px solid transparent;
+}
+#about h3 {
+  color: #545152;
+}
+#about h2 {
+  color: #2F3B55;
+}
+/*========================================================================
+  Imagens
+========================================================================*/
+  
+/*========================================================================
+  Img bacground parallaxe
+========================================================================*/
+
+.img-parallax {
+  height: 700px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/*========================================================================
+  buttons
+========================================================================*/
+
+.btn-general {}
+
+.btn-orange {
+  color: #F89E35;
+  border-radius: 0;
+  border-color: #F89E35;
+}
+
+.btn-orange:focus, .btn-orange:hover {
+  color: #fff;
+  background-color: #F89E35;
+  border-radius: 0;
+  border-color: #F89E35;
+}
+/*========================================================================
+  underline
+========================================================================*/
+
+.underline{
+    display: block;
+    height: 2px;
+    width: 150px;
+    border: 0;
+    border-top: 1px solid #F89E35;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
